@@ -1,8 +1,15 @@
-# React + Vite
+<h1>YOUTUBE-CLONE</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>This project is a YouTube clone developed using React and Context API. This clone replicates the core features of YouTube, offering functionalities such as video searching, viewing, and displaying videos based on different categories.</p>
 
-Currently, two official plugins are available:
+<h2>Features</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ul>
+        <li>Developed using the React library.</li>
+        <li>Context API utilized for managing state and data propagation throughout the application.</li>
+        <li>Axios used for API requests and data retrieval.</li>
+        <li>Full responsive.</li>
+        <li>Integrated a video player component for video playback within the application.</li>
+</ul>
+
+<h2>Screen Gif</h2>
