@@ -8,6 +8,7 @@
         <li>Developed using the React library.</li>
         <li>Context API utilized for managing state and data propagation throughout the application.</li>
         <li>Axios used for API requests and data retrieval.</li>
+        <li>Integrated Tailwind CSS for responsive and efficient styling across the application.</li>
         <li>Full responsive.</li>
         <li>Integrated a video player component for video playback within the application.</li>
 </ul>
