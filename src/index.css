@@ -18,6 +18,10 @@ body {
   height: 100vh;
   overflow: auto;
 }
+.videos::-webkit-scrollbar {
+  display: none;
+}
+
 
 @media (max-width: 768px) {
   .videos {
@@ -33,4 +37,11 @@ body {
   display: grid;
   grid-template-columns: 169px auto;
   gap: 10px;
+}
+
+.search-row {
+  display: grid;
+  grid-template-columns: 500px auto;
+  gap: 10px;
+  margin-left: 450px;
 }

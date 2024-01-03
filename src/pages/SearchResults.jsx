@@ -18,7 +18,7 @@ const SearchResults = () => {
   return (
     <div className="flex">
       <SideBar />
-      <div className="flex flex-col gap-5 px-4">
+      <div className="flex flex-col gap-20 w-full">
         <h2>{query} için sonuçlar</h2>
 
         {!results ? (
@@ -27,7 +27,7 @@ const SearchResults = () => {
           results.map(
             (item) =>
               item.type === "video" && (
-                <VideoCard type={"deneme"} video={item} />
+                <VideoCard type="search-row" video={item} />
               )
           )
         )}

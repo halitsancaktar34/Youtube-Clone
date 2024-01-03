@@ -16,12 +16,13 @@ const VideoDetail = () => {
   }, [id]);
 
   return (
-    <div className="p-4 md:p-6 min-h-screen flex max-lg:flex-col">
-      <div className="flex-1">
-        {/* raect play kullan */}
+    <div className="p-4 md:p-6 min-h-screen flex max-lg:flex-col overflow-x-hidden">
+      <div style={{maxWidth: "1500px"}} className="flex-1">
+        {/* react player kullan */}
         <ReactPlayer
           className={"rounded"}
           width={"100%"}
+          height={"700px"}
           controls={true}
           url={`https://www.youtube.com/watch?v=${id}`}
         />
